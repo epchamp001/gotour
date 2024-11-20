@@ -5,9 +5,6 @@ import (
 	"math"
 )
 
-//Тип float64 в Go имеет точность до примерно 15-17 значащих десятичных цифр
-// Поэтому берем threshold 1e-15
-
 func Sqrt(x float64) float64 {
 	z := 1.0
 	threshold := 1e-15
